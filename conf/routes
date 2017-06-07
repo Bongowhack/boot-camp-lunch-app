@@ -6,6 +6,8 @@
 # An example controller showing a sample home page
 GET     /                           controllers.HomeController.index
 
+GET     /sandwiches                 controllers.SandwichController.sandwiches
+
 GET     /welcome                    controllers.WelcomeController.welcome
 
 # Map static resources from the /public folder to the /assets URL path
